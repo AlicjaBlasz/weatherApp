@@ -54,7 +54,7 @@ public class UserInterface {
     }
 
     private void getCurrentForecast() {
-        //...
+        //..
 
     }
 }
