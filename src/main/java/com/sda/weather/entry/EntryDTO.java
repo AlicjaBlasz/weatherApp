@@ -3,6 +3,6 @@ package com.sda.weather.entry;
 import lombok.Data;
 
 @Data
-public class EntryDTO {
+public class EntryDTO { // todo unnecessary class, remove it
 
 }

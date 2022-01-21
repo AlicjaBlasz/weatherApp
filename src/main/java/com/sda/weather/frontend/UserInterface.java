@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class UserInterface {
 
     public void run() {
-
         System.out.println("Application is running. \n");
 
         Scanner scanner = new Scanner(System.in);
@@ -24,18 +23,14 @@ public class UserInterface {
                 case 1:
                     addLocation();
                     break;
-
                 case 2:
                     getAllLocations();
                     break;
-
                 case 3:
                     getCurrentForecast();
                     break;
-
                 case 0:
                     return;
-
             }
             System.out.println();
 
@@ -45,16 +40,13 @@ public class UserInterface {
 
     private void addLocation() {
         //...
-
     }
 
     private void getAllLocations() {
         //...
-
     }
 
     private void getCurrentForecast() {
         //..
-
     }
 }
